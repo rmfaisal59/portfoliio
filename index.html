@@ -1,95 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Navigation Mernu</title>
-	<style>
-		ul{list-style-type:none;
-			margin: 30px;
-			padding: 5px;
-			overflow: hidden;
-			background-color: #333333;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-		}
-		li{float: left;
-			display: inline;
-		}
-		li a{display: inline-block;
-			color: white;
-			text-align: center;
-			padding: 16px;
-			text-decoration: none;
-		}
-		li a:hover{background-color: #111111;
-			}
-		h1{color: red;
-			font-size: 70px;
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-		}
-		.info{background-color: tomato;
-			color: white;
-			padding: none;
-		font-size: 18px;
-		display: block;
-		text-align: center;
-		font-size: 50px;
-		color: white;
-		}
-		.p{color: white;
-			font-size: 18px;}
-			.img{float: right;
-				width: 110px;
-				height: 90px;}
-				.video{text-align: center;}
-	</style>
+    <link rel="stylesheet" href="https:/unpkg.com/tailwindcss/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url(background1.jpg)";>
-	<h1 style="text-align: center";>Laptech IT Solution</h1>
-<ul>
-	
-	<li><a href="file:///C:/Users/Muhammad%20Faisal/Desktop/Navigation%20menu.html#News">Home</a></li>
-	<li><a href="#News">News</a>
-	</li>
-	<li><a href="#Contact">Contact</a></li>
-	<li><a href="#About">About</a></li>
-</ul>
-		<h1 class="info">Laptops</h1>
-		<p class="p">
-		<img src="laptop2.png" alt="Laptop Repairing" class="img">
-			laptech.pk is an online shopping deal Discount offer provider where we share unbeatable deals, offers, promo code, coupon discounts and much more when you buy online products on Amazon, eBay, and Walmart, etc. platforms. Our price is very reasonable compared to another shopping site. Get more information visit here: https://www.laptech.pk<br>We Also Offer you Laptops Repairing at your door step. You Consider us your laptop Doctor.<br>We repair Laptops Screens,Hards,Rams,Chargers,Body.
-		</p>
-		<h1 class="info">Mobiles</h1>
-		<p class="p">
-			<img src="mobile1.png" alt="Mobiles" class="img">
-			Mobile phones are the most popular products that are sold online, especially here in Pakistan. Here at PriceOye, we assist you in buying your next mobile smartphone by showing you prices from popular online shopping websites, while highlighting the lowest mobile phone prices in Pakistan. We have mobile phones from QMobile, Huawei, Samsung, LG, Apple, Google Nexus, Motorola, and more.
 
-Using PriceOye will ensure your purchase is of the lowest price. We use intelligent software with an easy-to-use interface to find the lowest prices for you - you save both money and time!
+<body class="font-sans antialiased text-gray-100 leading-normal tracking-wider bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bg1.jpg);">
 
-Mobile phones aren’t the only items we find the lowest price for here at PriceOye. We are continually developing our website to find lowest prices for all consume electronics including gaming consoles, cameras, home appliances, and books! Stay tuned by liking us on Facebook, following us on Twitter, or subscribing to our email newsletter.
-		</p>
-		<h1 class="info">Printers</h1>
-		<p class="p">
-			<img src="printer2.png" alt="Printers" class="img">
-			Want to save your precious moments, saved as soft copies, to beautiful hard copies (printing papers or card)? Don't know how to save a hard copy of your important documents on your PC? Worry not, because you can do all that and even more with top-quality printers online in Pakistan. Printers allow you to reproduce soft copies to hard copies while scanners do the exact opposite. Having these devices in your home or at your office can save you a lot of time, efforts and, most importantly, money.
+    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
-Buy Printers @ Optimal Prices in Pakistan from Laptech.pk
-Daraz's printer online shopping store in Pakistan is considered to be the best when it comes to getting a 3-in-1 printer on best rates in Pakistan. Get the quality branded printers at the lowest price in Pakistan from Daraz's Pakistan website. The minimum price for printers on Daraz.pk starts at Rs.4,900 but you can buy the printers at an, even more, cheaper price in Pakistan during Daraz's Campaigns that offers up to 50% discount! So, trust Daraz.pk's printer online store for the best printer prices in Pakistan.
+        <!-- Content section -->
+        <div class="w-full lg:w-3/5 rounded-lg px-10 lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-gray-900 opacity-75 mx-6 lg:mx-0">
 
-All Types of Printers Available @ Daraz.pk
-At Laptech.pk, you can buy printers and you can also buy scanners conveniently from the comfort of your home, and at the best possible prices. Whether you need a printer to print your documents, manuscripts or images, or a scanner to scan your notes, photos, etc., you can have it safely delivered to your home whenever you like. From heavy duty enterprise printers to compact laser, Deskjet or inkjet printers, you can find it all here at Daraz.pk. To maintain excellence in our offerings, we offer best printers and scanners, and even 3-in-1 machines (printer, scanner, and photocopier) from major brands including HP, Samsung, Fuji Film, Canon, Epson, and more. So, find the one that fits your printing and scanning needs, and order now! Pay Cash on Delivery if you like!
-</p>
-<h1 class="info">Scaners</h1>
-<p class="p">
-	We Also Deals in Scaners. We have a lot of quantity of This product as much as you need.
-</p>
-<video width="320" height="240" controls class="video">
-	<source src="ideapad900.mp4" type="video/mp4">
-		
-</video>
-<object data="mobile1.png"></object>
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=PKRB6umzeAg">
-</iframe>
+            <div class="p-4 md:p-12 text-center lg:text-left">
 
+                <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-56 w-56 bg-cover bg-center" style="background-image: url(images/faisal.png);">
+                </div>
+
+
+
+                <h1 class="text-3xl font-bold text-white pt-8 lg:pt-0 flex items-center justify-center lg:justify-start">Muhammad Faisal</h1>
+
+
+                <div class="lg:mx-0 lg:w-4/5 pt-2 border-b-2 border-white opacity-50 flex items-center justify-center"></div>
+
+                <p class="text-blue-200 pt-4 font-bold">
+                    <svg class="h-5 pr-2 fill-current text-white inline" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Profession</title><path d="M12 24C5.342 24 0 18.582 0 12 0 5.342 5.342 0 12 0s12 5.342 12 12c0 6.582-5.342 12-12 12zm0-21.986c-5.497 0-9.987 4.489-9.987 9.986 0 5.498 4.49 9.988 9.987 9.988 5.498 0 9.987-4.49 9.987-9.988 0-5.497-4.489-9.986-9.987-9.986zm5.885 11.148H9.213c-.384 0-.695-.309-.698-.691v-1.012c0-.387.311-.697.698-.697h8.748c.387 0 .697.311.697.697v1.006c-.077.387-.387.697-.773.697zm-2.246-3.871H6.891c-.383.002-.697-.307-.698-.691V7.59c0-.311.31-.621.697-.621h8.748c.31 0 .62.311.62.619v1.006c.001.386-.31.697-.619.697zm-8.748 5.418h8.748c.388 0 .696.311.696.697v1.006c.002.383-.309.695-.691.697H6.891c-.388-.076-.697-.387-.697-.773V15.33c-.001-.31.309-.621.697-.621z"/></svg>                    Professional Front end Web Developer
+                </p>
+
+                <p class="text-blue-200 pt-2">
+                    <svg class="h-5 pr-2 fill-current text-white inline" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Location</title><path d="M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z"/></svg>                    Islamabad, Pakistan
+                </p>
+
+                <p class="pt-8 text-sm">I am a front end Web Developer, Designer and lover of Education.</p>
+
+                <p class="pt-2 text-sm">Check out my Social links below to see some of my work.</p>
+
+                <div class="pt-10 pb-8 flex items-center justify-center lg:justify-start">
+                    <a href="tel:+923020956135" class="bg-teal-600 text-white font-bold px-4 py-2 rounded-full hover:bg-white hover:text-black">Contact Me</a>
+                </div>
+
+                <div class="mt-8 w-4/5 pb-8 lg:pb-2 flex lg:w-full mx-auto flex flex-wrap items-center justify-between">
+
+                    <a href="" class="link">
+                        <svg class="h-8 fill-current text-gray-600 hover:text-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/></svg>
+                    </a>
+                    <a href="" class="link">
+                        <svg class="h-8 fill-current text-gray-600 hover:text-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                    </a>
+                    <a href="" class="link">
+                        <svg class="h-8 fill-current text-gray-600 hover:text-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Git Hub</title><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"/></svg>
+                    </a>
+                    <a href="" class="link">
+                        <svg class="h-8 fill-current text-gray-600 hover:text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+                    </a>
+                    <a href="" class="link" data-tippy-content="Insta">
+                        <svg class="h-8 fill-current text-gray-600 hover:text-white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- End Content section -->
+
+        <!-- Image section -->
+        <div class="w-full lg:w-2/5">
+            <img src="images/faisal.jpg" alt="" class="my-img rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+        </div>
+
+        <!-- End Image section -->
+
+
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/popper.js@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
+    <script>
+        tippy('.link' {
+            placement: 'top',
+        })
+    </script>
 
 </body>
+
 </html>
